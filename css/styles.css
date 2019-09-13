@@ -2,16 +2,93 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-size: 1.7em;
+    background-image: url("https://photos.smugmug.com/Other/Utah/i-hTmc6SL/0/9e8f3ef6/XL/Black_%26_White_Photography_Fundumentals_02-XL.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.overlay {
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    height: 100%;
+    opacity: 2;
+    border-radius: 10px;
+  }
+
 nav {
-    text-align: right;
+    /*text-align: right;*/
+    
 }
 
 nav>ul>li {
-    display: inline-block;
+    /*display: inline-block;*/
+    
 }
 
 ul>li>a {
     text-decoration: none;
+    color: deepskyblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 25px;
+}
+
+li {
+    padding: 20px;
+}
+
+nav>ul>li>a:hover {
+    box-shadow: 0 0 0 0 0.625em rgba(0, 0, 0, 0.1), inset 0 0 0.625em rgba(255,255, 255, 0.6);
+    background-color: rgba(107, 93, 84, 0.678);
+    color: rgba(0, 35, 122, 0.7);
+}
+
+#container {
+    padding: 80px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.side-nav {
+    float: left;
+    width: 20%;
+    padding: 30px;
+    height: 100%;
+    text-align: left;
+}
+
+.main-body {
+    float: right;
+    width: 70%;
+    height: 100%;
+    padding: 30px;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    height: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
