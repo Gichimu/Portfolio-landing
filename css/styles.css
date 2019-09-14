@@ -17,11 +17,15 @@ body {
     height: 100%;
     opacity: 2;
     border-radius: 10px;
-  }
+}
+
+#name {
+    text-align: center;
+}
 
 nav {
     /*text-align: right;*/
-    
+    left: 15px;
 }
 
 nav>ul>li {
@@ -37,6 +41,7 @@ ul>li>a {
 ul {
     list-style-type: none;
     padding: 25px;
+    
 }
 
 li {
@@ -81,10 +86,9 @@ nav>ul>li>a:hover {
 }
 
 footer {
-    position: absolute;
-    bottom: 0px;
     text-align: center;
     width: 100%;
+    vertical-align: bottom;
 }
 
 #container {
