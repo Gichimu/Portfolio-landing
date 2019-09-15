@@ -114,11 +114,31 @@ a {
     padding-bottom: 10px;
 }
 
+#spacer {
+    padding: 30px;
+}
 
 .footer {
     position: relative;
     text-align: center;
     height: auto;
+    font-size: 0.7em;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.border-left {
+    border-left: 1px solid lightslategray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 footer {
