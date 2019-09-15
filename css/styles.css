@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Neucha, sans-serif;
     color: white;
     font-size: 1.7em;
     background-image: url("https://photos.smugmug.com/Other/Utah/i-hTmc6SL/0/9e8f3ef6/XL/Black_%26_White_Photography_Fundumentals_02-XL.jpg");
@@ -19,8 +19,10 @@ body {
     border-radius: 10px;
 }
 
-#name {
+#full-name {
+    font-family: Dancing Script, sans-serif;
     text-align: center;
+    font-size: 1.5em;
 }
 
 nav {
