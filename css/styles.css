@@ -72,15 +72,10 @@ a {
     float: left;
     width: 20%;
     padding: 30px;
-    height: 533px;
+    max-height: 533px;
     text-align: center;
 }
 
-.side-nav>a {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 .main-body {
     float: right;
