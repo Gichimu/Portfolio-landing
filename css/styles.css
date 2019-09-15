@@ -72,21 +72,44 @@ a {
     float: left;
     width: 20%;
     padding: 30px;
-    height: 100%;
-    text-align: left;
+    max-height: 70%;
+    text-align: center;
 }
 
 .main-body {
     float: right;
-    width: 70%;
-    max-height: 700px;
+    width: 1050px;
+    height: 533px;
     padding: 30px;
+    font-size: 0.9em;
+    text-align: center;
+
 }
 
 #home>img {
-    max-height: 100%;
-    max-width: 100%;
+    height: 525px;
+    width: 934px;
 }
+
+#interests {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#hobbies {
+    padding-top: 10px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid white;
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    right: 30%;
+}
+
+
+
 
 .footer {
     position: relative;
